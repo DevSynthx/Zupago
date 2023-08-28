@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C180F0E2A9CC09100DE6C24 /* ChipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C180F0D2A9CC09100DE6C24 /* ChipView.swift */; };
+		0C180F112A9D2E6C00DE6C24 /* ChipViewImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C180F102A9D2E6C00DE6C24 /* ChipViewImp.swift */; };
+		0C180F142A9D2E9600DE6C24 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C180F132A9D2E9600DE6C24 /* Extensions.swift */; };
 		0CAFD7C52A9B618F0009D70E /* ZupagoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFD7C42A9B618F0009D70E /* ZupagoApp.swift */; };
 		0CAFD7C72A9B618F0009D70E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFD7C62A9B618F0009D70E /* ContentView.swift */; };
 		0CAFD7C92A9B61900009D70E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CAFD7C82A9B61900009D70E /* Assets.xcassets */; };
@@ -14,6 +17,13 @@
 		0CAFD7D62A9B61900009D70E /* ZupagoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFD7D52A9B61900009D70E /* ZupagoTests.swift */; };
 		0CAFD7E02A9B61900009D70E /* ZupagoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFD7DF2A9B61900009D70E /* ZupagoUITests.swift */; };
 		0CAFD7E22A9B61900009D70E /* ZupagoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFD7E12A9B61900009D70E /* ZupagoUITestsLaunchTests.swift */; };
+		0CAFD7F32A9B6AEA0009D70E /* Satoshi-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CAFD7F22A9B6AEA0009D70E /* Satoshi-Bold.ttf */; };
+		0CAFD7F52A9B6AF80009D70E /* Satoshi-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CAFD7F42A9B6AF80009D70E /* Satoshi-Medium.ttf */; };
+		0CAFD7F72A9B6B050009D70E /* Satoshi-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CAFD7F62A9B6B050009D70E /* Satoshi-Regular.ttf */; };
+		0CAFD7FC2A9B6CA50009D70E /* Satoshi-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CAFD7FB2A9B6CA50009D70E /* Satoshi-Light.ttf */; };
+		0CAFD8002A9B6DC80009D70E /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFD7FF2A9B6DC80009D70E /* Fonts.swift */; };
+		0CAFD8032A9B75090009D70E /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFD8022A9B75090009D70E /* AppColor.swift */; };
+		0CAFD8052A9BCDE00009D70E /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFD8042A9BCDE00009D70E /* Sample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C180F0D2A9CC09100DE6C24 /* ChipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipView.swift; sourceTree = "<group>"; };
+		0C180F102A9D2E6C00DE6C24 /* ChipViewImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipViewImp.swift; sourceTree = "<group>"; };
+		0C180F132A9D2E9600DE6C24 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		0CAFD7C12A9B618F0009D70E /* Zupago.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zupago.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CAFD7C42A9B618F0009D70E /* ZupagoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZupagoApp.swift; sourceTree = "<group>"; };
 		0CAFD7C62A9B618F0009D70E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +57,14 @@
 		0CAFD7DB2A9B61900009D70E /* ZupagoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZupagoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CAFD7DF2A9B61900009D70E /* ZupagoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZupagoUITests.swift; sourceTree = "<group>"; };
 		0CAFD7E12A9B61900009D70E /* ZupagoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZupagoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0CAFD7F22A9B6AEA0009D70E /* Satoshi-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Bold.ttf"; sourceTree = "<group>"; };
+		0CAFD7F42A9B6AF80009D70E /* Satoshi-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Medium.ttf"; sourceTree = "<group>"; };
+		0CAFD7F62A9B6B050009D70E /* Satoshi-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Regular.ttf"; sourceTree = "<group>"; };
+		0CAFD7FA2A9B6B590009D70E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0CAFD7FB2A9B6CA50009D70E /* Satoshi-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Light.ttf"; sourceTree = "<group>"; };
+		0CAFD7FF2A9B6DC80009D70E /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		0CAFD8022A9B75090009D70E /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		0CAFD8042A9BCDE00009D70E /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +92,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C180F0C2A9CC07900DE6C24 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0C180F0F2A9D2E4400DE6C24 /* ChipView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0C180F0F2A9D2E4400DE6C24 /* ChipView */ = {
+			isa = PBXGroup;
+			children = (
+				0C180F0D2A9CC09100DE6C24 /* ChipView.swift */,
+				0C180F102A9D2E6C00DE6C24 /* ChipViewImp.swift */,
+			);
+			path = ChipView;
+			sourceTree = "<group>";
+		};
+		0C180F122A9D2E8100DE6C24 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0C180F132A9D2E9600DE6C24 /* Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		0CAFD7B82A9B618F0009D70E = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +140,16 @@
 		0CAFD7C32A9B618F0009D70E /* Zupago */ = {
 			isa = PBXGroup;
 			children = (
+				0CAFD7FA2A9B6B590009D70E /* Info.plist */,
+				0CAFD7F12A9B6AC40009D70E /* Font */,
+				0CAFD7F02A9B61B90009D70E /* Domain */,
+				0CAFD7EF2A9B61B00009D70E /* Core */,
+				0CAFD7EE2A9B61A30009D70E /* Presentation */,
 				0CAFD7C42A9B618F0009D70E /* ZupagoApp.swift */,
 				0CAFD7C62A9B618F0009D70E /* ContentView.swift */,
 				0CAFD7C82A9B61900009D70E /* Assets.xcassets */,
 				0CAFD7CA2A9B61900009D70E /* Preview Content */,
+				0CAFD8042A9BCDE00009D70E /* Sample.swift */,
 			);
 			path = Zupago;
 			sourceTree = "<group>";
@@ -125,6 +177,66 @@
 				0CAFD7E12A9B61900009D70E /* ZupagoUITestsLaunchTests.swift */,
 			);
 			path = ZupagoUITests;
+			sourceTree = "<group>";
+		};
+		0CAFD7EE2A9B61A30009D70E /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				0C180F0C2A9CC07900DE6C24 /* Views */,
+				0CAFD7FD2A9B6DAC0009D70E /* Utils */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		0CAFD7EF2A9B61B00009D70E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0CAFD7F02A9B61B90009D70E /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		0CAFD7F12A9B6AC40009D70E /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				0CAFD7F22A9B6AEA0009D70E /* Satoshi-Bold.ttf */,
+				0CAFD7FB2A9B6CA50009D70E /* Satoshi-Light.ttf */,
+				0CAFD7F42A9B6AF80009D70E /* Satoshi-Medium.ttf */,
+				0CAFD7F62A9B6B050009D70E /* Satoshi-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		0CAFD7FD2A9B6DAC0009D70E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0C180F122A9D2E8100DE6C24 /* Extension */,
+				0CAFD8012A9B74F80009D70E /* AppColor */,
+				0CAFD7FE2A9B6DB40009D70E /* Fonts */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0CAFD7FE2A9B6DB40009D70E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0CAFD7FF2A9B6DC80009D70E /* Fonts.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		0CAFD8012A9B74F80009D70E /* AppColor */ = {
+			isa = PBXGroup;
+			children = (
+				0CAFD8022A9B75090009D70E /* AppColor.swift */,
+			);
+			path = AppColor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +343,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CAFD7F72A9B6B050009D70E /* Satoshi-Regular.ttf in Resources */,
+				0CAFD7F32A9B6AEA0009D70E /* Satoshi-Bold.ttf in Resources */,
+				0CAFD7FC2A9B6CA50009D70E /* Satoshi-Light.ttf in Resources */,
 				0CAFD7CC2A9B61900009D70E /* Preview Assets.xcassets in Resources */,
+				0CAFD7F52A9B6AF80009D70E /* Satoshi-Medium.ttf in Resources */,
 				0CAFD7C92A9B61900009D70E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +373,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C180F112A9D2E6C00DE6C24 /* ChipViewImp.swift in Sources */,
+				0CAFD8052A9BCDE00009D70E /* Sample.swift in Sources */,
 				0CAFD7C72A9B618F0009D70E /* ContentView.swift in Sources */,
+				0C180F142A9D2E9600DE6C24 /* Extensions.swift in Sources */,
+				0C180F0E2A9CC09100DE6C24 /* ChipView.swift in Sources */,
+				0CAFD8032A9B75090009D70E /* AppColor.swift in Sources */,
+				0CAFD8002A9B6DC80009D70E /* Fonts.swift in Sources */,
 				0CAFD7C52A9B618F0009D70E /* ZupagoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +542,7 @@
 				DEVELOPMENT_TEAM = ABK2TMF98V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zupago/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +572,7 @@
 				DEVELOPMENT_TEAM = ABK2TMF98V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zupago/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
