@@ -11,7 +11,8 @@ import SwiftUI
 struct ZupagoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BuyAndSell()
+                .environmentObject(ChipViewModel())
         }
     }
 }

@@ -17,7 +17,7 @@ struct ChipView: View {
             .font(.system(size: 13))
             .padding(.trailing, 20)
             .padding(.leading, 43)
-            .padding(.vertical, 20)
+            .padding(.vertical, 17)
             .background(
                 ZStack(alignment: .leading){
                     Capsule()

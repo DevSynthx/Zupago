@@ -10,6 +10,14 @@
 		0C180F0E2A9CC09100DE6C24 /* ChipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C180F0D2A9CC09100DE6C24 /* ChipView.swift */; };
 		0C180F112A9D2E6C00DE6C24 /* ChipViewImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C180F102A9D2E6C00DE6C24 /* ChipViewImp.swift */; };
 		0C180F142A9D2E9600DE6C24 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C180F132A9D2E9600DE6C24 /* Extensions.swift */; };
+		0C54FC7C2A9F6C9F00AC1296 /* customTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54FC7B2A9F6C9F00AC1296 /* customTab.swift */; };
+		0C54FC7E2A9F726200AC1296 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54FC7D2A9F726200AC1296 /* MainScreen.swift */; };
+		0C54FC812A9F756800AC1296 /* WalletScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54FC802A9F756800AC1296 /* WalletScreen.swift */; };
+		0C54FC832A9F808F00AC1296 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54FC822A9F808F00AC1296 /* CardView.swift */; };
+		0C54FC852A9F820600AC1296 /* AccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C54FC842A9F820600AC1296 /* AccountScreen.swift */; };
+		0C5768582AA094BD00AE4FC0 /* QuickAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5768572AA094BD00AE4FC0 /* QuickAction.swift */; };
+		0C57685C2AA0ADCA00AE4FC0 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C57685B2AA0ADCA00AE4FC0 /* TopView.swift */; };
+		0C57685E2AA1182500AE4FC0 /* BuyAndSell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C57685D2AA1182500AE4FC0 /* BuyAndSell.swift */; };
 		0CAFD7C52A9B618F0009D70E /* ZupagoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFD7C42A9B618F0009D70E /* ZupagoApp.swift */; };
 		0CAFD7C72A9B618F0009D70E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFD7C62A9B618F0009D70E /* ContentView.swift */; };
 		0CAFD7C92A9B61900009D70E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CAFD7C82A9B61900009D70E /* Assets.xcassets */; };
@@ -47,6 +55,14 @@
 		0C180F0D2A9CC09100DE6C24 /* ChipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipView.swift; sourceTree = "<group>"; };
 		0C180F102A9D2E6C00DE6C24 /* ChipViewImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipViewImp.swift; sourceTree = "<group>"; };
 		0C180F132A9D2E9600DE6C24 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0C54FC7B2A9F6C9F00AC1296 /* customTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTab.swift; sourceTree = "<group>"; };
+		0C54FC7D2A9F726200AC1296 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		0C54FC802A9F756800AC1296 /* WalletScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletScreen.swift; sourceTree = "<group>"; };
+		0C54FC822A9F808F00AC1296 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		0C54FC842A9F820600AC1296 /* AccountScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountScreen.swift; sourceTree = "<group>"; };
+		0C5768572AA094BD00AE4FC0 /* QuickAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickAction.swift; sourceTree = "<group>"; };
+		0C57685B2AA0ADCA00AE4FC0 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		0C57685D2AA1182500AE4FC0 /* BuyAndSell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyAndSell.swift; sourceTree = "<group>"; };
 		0CAFD7C12A9B618F0009D70E /* Zupago.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zupago.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CAFD7C42A9B618F0009D70E /* ZupagoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZupagoApp.swift; sourceTree = "<group>"; };
 		0CAFD7C62A9B618F0009D70E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,7 +111,11 @@
 		0C180F0C2A9CC07900DE6C24 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0C54FC802A9F756800AC1296 /* WalletScreen.swift */,
 				0C180F0F2A9D2E4400DE6C24 /* ChipView */,
+				0C54FC822A9F808F00AC1296 /* CardView.swift */,
+				0C54FC842A9F820600AC1296 /* AccountScreen.swift */,
+				0C57685D2AA1182500AE4FC0 /* BuyAndSell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -115,6 +135,31 @@
 				0C180F132A9D2E9600DE6C24 /* Extensions.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		0C54FC7A2A9F6C7600AC1296 /* CustomTab */ = {
+			isa = PBXGroup;
+			children = (
+				0C54FC7B2A9F6C9F00AC1296 /* customTab.swift */,
+			);
+			path = CustomTab;
+			sourceTree = "<group>";
+		};
+		0C5768552AA0949A00AE4FC0 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				0C5768562AA094A600AE4FC0 /* Views */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		0C5768562AA094A600AE4FC0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0C5768572AA094BD00AE4FC0 /* QuickAction.swift */,
+				0C57685B2AA0ADCA00AE4FC0 /* TopView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		0CAFD7B82A9B618F0009D70E = {
@@ -182,8 +227,11 @@
 		0CAFD7EE2A9B61A30009D70E /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				0C5768552AA0949A00AE4FC0 /* HomeScreen */,
+				0C54FC7A2A9F6C7600AC1296 /* CustomTab */,
 				0C180F0C2A9CC07900DE6C24 /* Views */,
 				0CAFD7FD2A9B6DAC0009D70E /* Utils */,
+				0C54FC7D2A9F726200AC1296 /* MainScreen.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -373,13 +421,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C54FC852A9F820600AC1296 /* AccountScreen.swift in Sources */,
+				0C57685C2AA0ADCA00AE4FC0 /* TopView.swift in Sources */,
+				0C54FC7C2A9F6C9F00AC1296 /* customTab.swift in Sources */,
 				0C180F112A9D2E6C00DE6C24 /* ChipViewImp.swift in Sources */,
+				0C54FC7E2A9F726200AC1296 /* MainScreen.swift in Sources */,
+				0C54FC812A9F756800AC1296 /* WalletScreen.swift in Sources */,
+				0C5768582AA094BD00AE4FC0 /* QuickAction.swift in Sources */,
 				0CAFD8052A9BCDE00009D70E /* Sample.swift in Sources */,
 				0CAFD7C72A9B618F0009D70E /* ContentView.swift in Sources */,
 				0C180F142A9D2E9600DE6C24 /* Extensions.swift in Sources */,
 				0C180F0E2A9CC09100DE6C24 /* ChipView.swift in Sources */,
 				0CAFD8032A9B75090009D70E /* AppColor.swift in Sources */,
 				0CAFD8002A9B6DC80009D70E /* Fonts.swift in Sources */,
+				0C54FC832A9F808F00AC1296 /* CardView.swift in Sources */,
+				0C57685E2AA1182500AE4FC0 /* BuyAndSell.swift in Sources */,
 				0CAFD7C52A9B618F0009D70E /* ZupagoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

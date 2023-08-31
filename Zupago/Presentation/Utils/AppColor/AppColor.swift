@@ -10,5 +10,6 @@ import SwiftUI
 
 struct AppColor {
     static let primary = Color("primary")
+    static let white = Color("Color")
     // Add more here...
 }
