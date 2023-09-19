@@ -8,8 +8,12 @@
 import SwiftUI
 
 struct CardScreen: View {
+    @State var noCard: Bool = true
     var body: some View {
-        Text("Hello, Card view!")
+        
+        
+            Text("No card available")
+
     }
 }
 

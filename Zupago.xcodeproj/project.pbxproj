@@ -18,6 +18,9 @@
 		0C5768582AA094BD00AE4FC0 /* QuickAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5768572AA094BD00AE4FC0 /* QuickAction.swift */; };
 		0C57685C2AA0ADCA00AE4FC0 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C57685B2AA0ADCA00AE4FC0 /* TopView.swift */; };
 		0C57685E2AA1182500AE4FC0 /* BuyAndSell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C57685D2AA1182500AE4FC0 /* BuyAndSell.swift */; };
+		0C6C8BB32ABA23C900DA4FB6 /* BuyTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6C8BB22ABA23C900DA4FB6 /* BuyTab.swift */; };
+		0C6C8BB62ABA280500DA4FB6 /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6C8BB52ABA280500DA4FB6 /* CurrencyModel.swift */; };
+		0C6C8BB82ABA48E200DA4FB6 /* CurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6C8BB72ABA48E200DA4FB6 /* CurrencyView.swift */; };
 		0CAFD7C52A9B618F0009D70E /* ZupagoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFD7C42A9B618F0009D70E /* ZupagoApp.swift */; };
 		0CAFD7C72A9B618F0009D70E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFD7C62A9B618F0009D70E /* ContentView.swift */; };
 		0CAFD7C92A9B61900009D70E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CAFD7C82A9B61900009D70E /* Assets.xcassets */; };
@@ -32,6 +35,13 @@
 		0CAFD8002A9B6DC80009D70E /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFD7FF2A9B6DC80009D70E /* Fonts.swift */; };
 		0CAFD8032A9B75090009D70E /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFD8022A9B75090009D70E /* AppColor.swift */; };
 		0CAFD8052A9BCDE00009D70E /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAFD8042A9BCDE00009D70E /* Sample.swift */; };
+		0CB74F0A2AB8FCA4003E76FB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CB74F092AB8FCA4003E76FB /* Launch Screen.storyboard */; };
+		0CB74F0D2AB90015003E76FB /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB74F0C2AB90015003E76FB /* Route.swift */; };
+		0CB74F112AB9048D003E76FB /* RouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB74F102AB9048D003E76FB /* RouteView.swift */; };
+		0CB74F132AB90914003E76FB /* MainRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB74F122AB90914003E76FB /* MainRoute.swift */; };
+		0CB74F152AB91636003E76FB /* WalletTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB74F142AB91636003E76FB /* WalletTop.swift */; };
+		0CB74F182AB92827003E76FB /* CustomKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB74F172AB92827003E76FB /* CustomKeyboard.swift */; };
+		0CEA21EA2AB13ABC0098B4EB /* AddVirtualCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA21E92AB13ABC0098B4EB /* AddVirtualCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +73,9 @@
 		0C5768572AA094BD00AE4FC0 /* QuickAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickAction.swift; sourceTree = "<group>"; };
 		0C57685B2AA0ADCA00AE4FC0 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
 		0C57685D2AA1182500AE4FC0 /* BuyAndSell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyAndSell.swift; sourceTree = "<group>"; };
+		0C6C8BB22ABA23C900DA4FB6 /* BuyTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyTab.swift; sourceTree = "<group>"; };
+		0C6C8BB52ABA280500DA4FB6 /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
+		0C6C8BB72ABA48E200DA4FB6 /* CurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyView.swift; sourceTree = "<group>"; };
 		0CAFD7C12A9B618F0009D70E /* Zupago.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zupago.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CAFD7C42A9B618F0009D70E /* ZupagoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZupagoApp.swift; sourceTree = "<group>"; };
 		0CAFD7C62A9B618F0009D70E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +94,13 @@
 		0CAFD7FF2A9B6DC80009D70E /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		0CAFD8022A9B75090009D70E /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
 		0CAFD8042A9BCDE00009D70E /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		0CB74F092AB8FCA4003E76FB /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		0CB74F0C2AB90015003E76FB /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		0CB74F102AB9048D003E76FB /* RouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteView.swift; sourceTree = "<group>"; };
+		0CB74F122AB90914003E76FB /* MainRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRoute.swift; sourceTree = "<group>"; };
+		0CB74F142AB91636003E76FB /* WalletTop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletTop.swift; sourceTree = "<group>"; };
+		0CB74F172AB92827003E76FB /* CustomKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKeyboard.swift; sourceTree = "<group>"; };
+		0CEA21E92AB13ABC0098B4EB /* AddVirtualCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVirtualCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,11 +131,14 @@
 		0C180F0C2A9CC07900DE6C24 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0C6C8BB12ABA23AD00DA4FB6 /* BuySellView */,
+				0CB74F162AB9280E003E76FB /* CustomKeyboard */,
+				0CEA21E82AB13AA50098B4EB /* VirtualCard */,
 				0C54FC802A9F756800AC1296 /* WalletScreen.swift */,
 				0C180F0F2A9D2E4400DE6C24 /* ChipView */,
 				0C54FC822A9F808F00AC1296 /* CardView.swift */,
 				0C54FC842A9F820600AC1296 /* AccountScreen.swift */,
-				0C57685D2AA1182500AE4FC0 /* BuyAndSell.swift */,
+				0CB74F142AB91636003E76FB /* WalletTop.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -160,6 +183,24 @@
 				0C57685B2AA0ADCA00AE4FC0 /* TopView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		0C6C8BB12ABA23AD00DA4FB6 /* BuySellView */ = {
+			isa = PBXGroup;
+			children = (
+				0C57685D2AA1182500AE4FC0 /* BuyAndSell.swift */,
+				0C6C8BB22ABA23C900DA4FB6 /* BuyTab.swift */,
+				0C6C8BB72ABA48E200DA4FB6 /* CurrencyView.swift */,
+			);
+			path = BuySellView;
+			sourceTree = "<group>";
+		};
+		0C6C8BB42ABA27DF00DA4FB6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0C6C8BB52ABA280500DA4FB6 /* CurrencyModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		0CAFD7B82A9B618F0009D70E = {
@@ -227,11 +268,14 @@
 		0CAFD7EE2A9B61A30009D70E /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				0CB74F0B2AB8FFC0003E76FB /* Routes */,
 				0C5768552AA0949A00AE4FC0 /* HomeScreen */,
 				0C54FC7A2A9F6C7600AC1296 /* CustomTab */,
 				0C180F0C2A9CC07900DE6C24 /* Views */,
 				0CAFD7FD2A9B6DAC0009D70E /* Utils */,
 				0C54FC7D2A9F726200AC1296 /* MainScreen.swift */,
+				0CB74F092AB8FCA4003E76FB /* Launch Screen.storyboard */,
+				0CB74F122AB90914003E76FB /* MainRoute.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -239,6 +283,7 @@
 		0CAFD7EF2A9B61B00009D70E /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				0C6C8BB42ABA27DF00DA4FB6 /* Model */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -285,6 +330,31 @@
 				0CAFD8022A9B75090009D70E /* AppColor.swift */,
 			);
 			path = AppColor;
+			sourceTree = "<group>";
+		};
+		0CB74F0B2AB8FFC0003E76FB /* Routes */ = {
+			isa = PBXGroup;
+			children = (
+				0CB74F0C2AB90015003E76FB /* Route.swift */,
+				0CB74F102AB9048D003E76FB /* RouteView.swift */,
+			);
+			path = Routes;
+			sourceTree = "<group>";
+		};
+		0CB74F162AB9280E003E76FB /* CustomKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0CB74F172AB92827003E76FB /* CustomKeyboard.swift */,
+			);
+			path = CustomKeyboard;
+			sourceTree = "<group>";
+		};
+		0CEA21E82AB13AA50098B4EB /* VirtualCard */ = {
+			isa = PBXGroup;
+			children = (
+				0CEA21E92AB13ABC0098B4EB /* AddVirtualCard.swift */,
+			);
+			path = VirtualCard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -397,6 +467,7 @@
 				0CAFD7CC2A9B61900009D70E /* Preview Assets.xcassets in Resources */,
 				0CAFD7F52A9B6AF80009D70E /* Satoshi-Medium.ttf in Resources */,
 				0CAFD7C92A9B61900009D70E /* Assets.xcassets in Resources */,
+				0CB74F0A2AB8FCA4003E76FB /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,13 +494,22 @@
 			files = (
 				0C54FC852A9F820600AC1296 /* AccountScreen.swift in Sources */,
 				0C57685C2AA0ADCA00AE4FC0 /* TopView.swift in Sources */,
+				0C6C8BB62ABA280500DA4FB6 /* CurrencyModel.swift in Sources */,
+				0CB74F112AB9048D003E76FB /* RouteView.swift in Sources */,
 				0C54FC7C2A9F6C9F00AC1296 /* customTab.swift in Sources */,
 				0C180F112A9D2E6C00DE6C24 /* ChipViewImp.swift in Sources */,
+				0C6C8BB82ABA48E200DA4FB6 /* CurrencyView.swift in Sources */,
 				0C54FC7E2A9F726200AC1296 /* MainScreen.swift in Sources */,
 				0C54FC812A9F756800AC1296 /* WalletScreen.swift in Sources */,
 				0C5768582AA094BD00AE4FC0 /* QuickAction.swift in Sources */,
 				0CAFD8052A9BCDE00009D70E /* Sample.swift in Sources */,
+				0CEA21EA2AB13ABC0098B4EB /* AddVirtualCard.swift in Sources */,
+				0CB74F152AB91636003E76FB /* WalletTop.swift in Sources */,
+				0CB74F132AB90914003E76FB /* MainRoute.swift in Sources */,
+				0CB74F0D2AB90015003E76FB /* Route.swift in Sources */,
+				0CB74F182AB92827003E76FB /* CustomKeyboard.swift in Sources */,
 				0CAFD7C72A9B618F0009D70E /* ContentView.swift in Sources */,
+				0C6C8BB32ABA23C900DA4FB6 /* BuyTab.swift in Sources */,
 				0C180F142A9D2E9600DE6C24 /* Extensions.swift in Sources */,
 				0C180F0E2A9CC09100DE6C24 /* ChipView.swift in Sources */,
 				0CAFD8032A9B75090009D70E /* AppColor.swift in Sources */,
@@ -601,7 +681,7 @@
 				INFOPLIST_FILE = Zupago/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -631,7 +711,7 @@
 				INFOPLIST_FILE = Zupago/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

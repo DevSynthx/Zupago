@@ -11,8 +11,10 @@ import SwiftUI
 struct ZupagoApp: App {
     var body: some Scene {
         WindowGroup {
-            BuyAndSell()
+            MainRoute()
                 .environmentObject(ChipViewModel())
+                .environmentObject(Router(root: Routes.MainScreen))
+                
         }
     }
 }

@@ -17,6 +17,7 @@ struct ContentView: View {
                 .frame(height: 25)
             QuickAction()
         }
+     
         .frame(maxHeight:.infinity, alignment: .top)
         .edgesIgnoringSafeArea(.top)
         
